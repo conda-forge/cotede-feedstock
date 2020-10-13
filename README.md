@@ -5,11 +5,13 @@ Home: http://cotede.castelao.net
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cotede-feedstock/blob/master/LICENSE.txt)
 
 Summary: Quality Control of Oceanographic Data
 
+Development: https://github.com/castelao/CoTeDe
 
+Documentation: https://cotede.readthedocs.io/en/latest/?badge=latest
 
 Current build status
 ====================
