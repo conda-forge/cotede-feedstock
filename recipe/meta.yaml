@@ -1,17 +1,17 @@
 {% set name = "CoTeDe" %}
-{% set version = "0.22.0" %}
+{% set version = "0.23.1" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz"
-  sha256: 863c9174b406ecd5d6dd86157f220fe1d940febb616d5a61acef6da3e531aaa0
+  url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
+  sha256: b4e0c4eaa3550f41bd9b9dae1db137a86ab060795d5cff069602cf596be183bf
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -34,13 +34,13 @@ test:
     - cotede.utils
 
 about:
-  home: "http://cotede.castelao.net"
+  home: http://cotede.castelao.net
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.rst
-  summary: "Quality Control of Oceanographic Data"
-  doc_url: "https://cotede.readthedocs.io/en/latest/?badge=latest"
-  dev_url: "https://github.com/castelao/CoTeDe"
+  summary: Quality Control of Oceanographic Data
+  doc_url: https://cotede.readthedocs.io/en/latest/?badge=latest
+  dev_url: https://github.com/castelao/CoTeDe
 
 extra:
   recipe-maintainers:
