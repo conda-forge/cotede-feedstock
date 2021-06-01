@@ -1,5 +1,5 @@
 {% set name = "CoTeDe" %}
-{% set version = "0.23.7" %}
+{% set version = "0.23.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: f859dc49f9e829687dbfbc25bf4424bed66c181f4eea0c3ebf0a446d7bbd3030
+  sha256: 1e1a42068393929b62b9bea3772fcd0395879780ec9fed7cfcb3fbf857b94d2c
 
 build:
   number: 0
