@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >= 3.6
   run:
+    - python >= 3.6
     - numpy >=1.11.1
     - oceansdb >=0.8.11
-    - python
     - scipy >=0.18.0
 
 test:
