@@ -10,18 +10,18 @@ source:
   sha256: f859dc49f9e829687dbfbc25bf4424bed66c181f4eea0c3ebf0a446d7bbd3030
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
     - pip
-    - python
+    - 'python >=3.6'
   run:
+    - 'python >=3.6'
     - numpy >=1.11.1
     - oceansdb >=0.8.11
-    - python
     - scipy >=0.18.0
 
 test:
