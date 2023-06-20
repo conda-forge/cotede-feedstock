@@ -37,7 +37,7 @@ about:
   home: http://cotede.castelao.net
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.rst
+  license_file: LICENSE
   summary: Quality Control of Oceanographic Data
   doc_url: https://cotede.readthedocs.io/en/latest/?badge=latest
   dev_url: https://github.com/castelao/CoTeDe
