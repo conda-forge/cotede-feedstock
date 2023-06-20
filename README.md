@@ -1,7 +1,7 @@
 About cotede-feedstock
 ======================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mine-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cotede-feedstock/blob/main/LICENSE.txt)
 
 Home: http://cotede.castelao.net
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mine-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10463&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cotede-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -148,7 +148,4 @@ Feedstock Maintainers
 =====================
 
 * [@castelao](https://github.com/castelao/)
-
-
-<!-- dummy commit to enable rerendering -->
 
